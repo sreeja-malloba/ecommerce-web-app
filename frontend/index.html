@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>E-Commerce App</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1>E-Commerce Store</h1>
+
+
+    <!-- REGISTER -->
+
+    <h2>Register</h2>
+
+    <input
+        type="text"
+        id="name"
+        placeholder="Name">
+
+    <br><br>
+
+    <input
+        type="email"
+        id="email"
+        placeholder="Email">
+
+    <br><br>
+
+    <input
+        type="password"
+        id="password"
+        placeholder="Password">
+
+    <br><br>
+
+    <button onclick="register()">
+        Register
+    </button>
+
+
+    <hr>
+
+
+    <!-- LOGIN -->
+
+    <h2>Login</h2>
+
+    <input
+        type="email"
+        id="loginEmail"
+        placeholder="Email">
+
+    <br><br>
+
+    <input
+        type="password"
+        id="loginPassword"
+        placeholder="Password">
+
+    <br><br>
+
+    <button onclick="login()">
+        Login
+    </button>
+
+
+    <hr>
+
+
+    <!-- PRODUCTS -->
+
+    <h2>Products</h2>
+
+    <div id="products"></div>
+
+
+    <hr>
+
+
+    <!-- CART -->
+
+    <h2>Cart</h2>
+
+    <div id="cart"></div>
+
+    <br>
+
+    <button onclick="checkout()">
+        Checkout
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
